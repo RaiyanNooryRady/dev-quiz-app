@@ -8,11 +8,11 @@ const Quiz = () => {
 
             <h2>Which device is used to create a website?</h2>
 
-            <ul className='quiz-options list-group'>
-                <li className='list-group-item'>A. Computer</li>
-                <li className='list-group-item'>B. Phone</li>
-                <li className='list-group-item'>C. Tablet</li>
-                <li className='list-group-item'>D. Smartwatch</li>
+            <ul className='quiz-options list-group mb-3'>
+                <li className='list-group-item fs-5'>A. Computer</li>
+                <li className='list-group-item fs-5'>B. Phone</li>
+                <li className='list-group-item fs-5'>C. Tablet</li>
+                <li className='list-group-item fs-5'>D. Smartwatch</li>
             </ul>
 
             <button className='quiz-button'>Next</button>
