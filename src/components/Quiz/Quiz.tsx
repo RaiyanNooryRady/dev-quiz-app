@@ -24,11 +24,11 @@ const Quiz = () => {
         setLock(true);
     }
     const handleNext = () => {
-        if (index === data.length || lock === false) {
+        if (index === data.length-1 || lock === false) {
             return;
         }
-        setIndex(index + 1);
-        setQuestion(data[index]);
+        setIndex((prev) => prev + 1);
+        setQuestion(data[index+1]);
         setLock(false);
         option_array.map((option) => {
             option.current?.classList.remove('correct-answer');
