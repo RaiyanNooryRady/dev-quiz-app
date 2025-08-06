@@ -6,7 +6,7 @@ const Quiz = () => {
             <h1>Quiz App</h1>
             <hr />
 
-            <h2>Which device is used to create a website?</h2>
+            <h2>1. Which device is used to create a website?</h2>
 
             <ul className='quiz-options list-group mb-3 gap-2'>
                 <li className='list-group-item fs-5 border-1 border-secondary rounded-1'>A. Computer</li>
